@@ -60,3 +60,38 @@ header button {
 header button span {
     margin-top: 8px;
 }
+
+.presentation {
+
+  flex-wrap: wrap;
+}
+
+.blockaligner,p,img {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.blockaligner div{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+
+.blockaligner div h3 {
+font-family: 'Playfair Display', serif;
+
+}
+.deuxiemeblockaligner, img,div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.troisiemeblockaligner ,p,div{
+    display: flex;
+    flex-direction: row;
+}
+
+.
