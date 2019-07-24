@@ -61,7 +61,7 @@ header button span {
     margin-top: 8px;
 }
 
-<<<<<<< HEAD
+
 .presentation {
 
   flex-wrap: wrap;
@@ -69,7 +69,6 @@ header button span {
 
 .blockaligner,p,img {
     display: flex;
-    margin: auto;
     justify-content: space-between;
     align-items: stretch;
 }
@@ -77,26 +76,114 @@ header button span {
 .blockaligner div{
  display: flex;
  flex-direction: column;
- text-align: center;
+ margin-left: 6%;
+ margin-right: 6%;
+ margin-bottom: 4%;
 }
 
 .blockaligner div h3 {
-font-family: 'Playfair Display', serif;
-
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 45pt;
+  margin-bottom: 0;
 }
-.deuxiemeblockaligner, img,div{
+
+.blockaligner div h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 15pt;
+  margin-top: 0;
+}
+
+.blockaligner div p {
+    font-family: 'Lato'
+    font-weight:normal;
+    font-size: 19pt;
+}
+
+.deuxiemeblockaligner {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.deuxiemeblockaligner img div{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
-
-.troisiemeblockaligner ,p,div{
-    display: flex;
-    flex-direction: row;
+.tabpuissance {
+  font-family: 'Lato'
+  font-weight:normal;
+  font-size: 21pt;
+  margin-right: 4%;
+  margin-left: 4%;
+  margin-top: 2%;
+  border-bottom: 1px;
+  border-bottom: solid;
+  border-bottom: black;
+}
+.tabpuissance {
+  flex-direction: column;
+}
+hr {
+  border-bottom: 1px;solid;black;
 }
 
-.
-=======
+.troisiemeblockaligner div h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 45pt;
+  margin-bottom: 0;
+}
+
+.troisiemeblockaligner div h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 15pt;
+  margin-top: 0;
+}
+.troisiemeblockaligner div p {
+    font-family: 'Lato'
+    font-weight:normal;
+    font-size: 19pt;
+}
+
+.troisiemeblockaligner div div {
+  display: flex;
+  flex-direction:row;
+}
+.troisiemeblockaligner{
+  display: flex;
+  flex-direction: row;
+}
+   .Concuepourlemotion {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6%;
+  padding-right: 21%;
+  margin-right: 6%;
+  width: 42%;
+}
+  .alignerquatreimages {
+    margin-left: -22%;
+  }
+.quatreimages {
+  display: flex;
+  flex-direction: row;
+}
+.images {
+width: 50%;
+}
+
+.images:hover {
+  opacity: 0.5;
+  cursor:pointer;
+  transition-delay: 6ms;
+}
+
 #formulaire {
     background-image: url("images/formulaire.png");
     background-repeat: no-repeat;
@@ -145,4 +232,3 @@ form {
     display: flex;
     justify-content: center;
 }
->>>>>>> a43b3d771ccd90e4a3ffdbc802a33e92a129963a
