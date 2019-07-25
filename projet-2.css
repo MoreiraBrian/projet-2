@@ -65,9 +65,6 @@ header button span {
     margin-top: 8px;
 }
 
-
-
-
 .presentation {
     flex-wrap: wrap;
 }
@@ -112,13 +109,9 @@ header button span {
   flex-direction: row;
 }
 
-
-.deuxiemeblockaligner img div{
-
-.blockaligner div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.blockaligner {
+  display: flex;
+  margin-top: -4%;
 }
 
 .blockaligner div h3 {
@@ -130,6 +123,9 @@ header button span {
     flex-direction: row;
 }
 
+.deuxiemeblockaligner img {
+  width: 51%;
+}
 .troisiemeblockaligner p div {
     display: flex;
     flex-direction: row;
@@ -138,21 +134,19 @@ header button span {
 }
 
 .tabpuissance {
-  font-family: 'Lato'
+  font-family: 'Lato';
   font-weight:normal;
   font-size: 21pt;
   margin-right: 4%;
   margin-left: 4%;
   margin-top: 2%;
-  border-bottom: 1px;
-  border-bottom: solid;
-  border-bottom: black;
+  margin-bottom: 2%;
 }
 .tabpuissance {
   flex-direction: column;
 }
 hr {
-  border-bottom: 1px;solid;black;
+  border-bottom: 3px;solid;black;bolder;
 }
 
 .troisiemeblockaligner div h3 {
@@ -169,7 +163,7 @@ hr {
   margin-top: 0;
 }
 .troisiemeblockaligner div p {
-    font-family: 'Lato'
+    font-family: 'Lato';
     font-weight:normal;
     font-size: 19pt;
 }
@@ -191,7 +185,7 @@ hr {
   width: 42%;
 }
   .alignerquatreimages {
-    margin-left: -22%;
+    margin-left: -23%;
   }
 .quatreimages {
   display: flex;
