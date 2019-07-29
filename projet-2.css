@@ -188,6 +188,16 @@ hr {
     flex-direction: row;
 }
 
+.quatreimages {
+    display: flex;
+    flex-direction: row;
+}
+
+.troisiemeblockaligner {
+    display: flex;
+    flex-direction: row;
+}
+
 .Concuepourlemotion {
     display: flex;
     flex-direction: column;
