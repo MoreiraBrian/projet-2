@@ -373,7 +373,7 @@ screen and (max-device-width: 1024px) {
         margin-top: 40px;
         line-height: 50px;
         font-size: 30pt;
-        padding-bottom: 400px;
+        padding-bottom: 100px;
     }
     .logo {
         width: 20%;
@@ -498,7 +498,7 @@ screen and (max-device-width: 560px) {
         margin-top: 40px;
         line-height: 50px;
         font-size: 30pt;
-        padding-bottom: 400px;
+        padding-bottom: 30px;
     }
     .logo {
         width: 20%;
